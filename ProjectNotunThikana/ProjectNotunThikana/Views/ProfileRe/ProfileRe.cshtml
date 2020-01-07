@@ -1,0 +1,511 @@
+﻿@model ProjectNotunThikana.Models.ProfileRe
+@{
+    Layout = null;
+}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>NotunThikana Profile Page</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="~/Content/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="~/Content/lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+    <link href="~/Content/lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+    <link href="~/Content/lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+    <link href="~/Content/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/Content/lib/venobox/venobox.css" rel="stylesheet">
+
+    <!-- Nivo Slider Theme -->
+    <link href="~/Content/css/nivo-slider-theme.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="~/Content/css/style.css" rel="stylesheet">
+
+    <!-- Responsive Stylesheet File -->
+    <link href="~/Content/css/responsive.css" rel="stylesheet">
+    <link href="~/Content/lib/Profile/Profile.css" rel="stylesheet">
+
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+        #map {
+            height: 500px;
+        }
+        /* Optional: Makes the sample page fill the window. */
+    </style>
+
+
+
+
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+
+    <div id="preloader"></div>
+
+    <header>
+        <!-- header-area start -->
+        <div id="sticker" class="header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <!-- Navigation -->
+                        <nav class="navbar navbar-default">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+
+                                <a class="navbar-brand page-scroll sticky-logo" href="~/HomePage/getHomeData">
+                                    <h1><span>Notun</span>Thikana</h1>
+
+                                </a>
+                            </div>
+
+                            <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active">
+                                        <a class="page-scroll" href="~/HomePage/getHomeData">Home</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#services">Services</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="~/ProfileLO/ProfileLandOwner">My Page</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#portfolio">Project Details</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#blog">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- navbar-collapse -->
+                        </nav>
+                        <!-- END: Navigation -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header-area end -->
+    </header>
+    <!-- header end -->
+    <!-- Start Bottom Header -->
+    <br /><br /><br />
+
+    <div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-4">
+                <div class="panel rounded shadow">
+                    <div class="panel-body">
+                        <div class="inner-all">
+                            <ul class="list-unstyled">
+                                @{
+                                    <li class="text-center">
+
+                                        @if (!Model.getImg.Equals("/Empty/"))
+                                        {
+                                            <img data-no-retina="" class="img-circle img-responsive img-bordered-primary" src="~/Content/UserProfileNotunThikana/@Model.getImg" alt=@Session["Name"]>
+                                        }
+                                        else
+                                        {
+                                            <img data-no-retina="" class="img-circle img-responsive img-bordered-primary" src="http://bootdey.com/img/Content/avatar/avatar1.png" alt=@Session["Name"]>
+                                        }
+
+                                    </li>
+                                }
+                                <li class="text-center">
+                                    <h4 class="text-capitalize">@Session["Name"]</h4>
+                                    <p class="text-muted text-capitalize">@Session["User"]</p>
+                                    <p class="text-muted text-capitalize">Email: @Session["Email"]</p>
+                                    <p class="text-muted text-capitalize">Phone: @Session["Phone"]</p>
+
+                                </li>
+                                <li>
+                                    @{
+                                        using (Html.BeginForm("UploadImage", "ProfileRe", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                        {
+                                            <input type="file" class="active" name="file" id="file" value="Choose File" accept="image/*" />
+
+                                            <input type="submit" class="btn btn-success text-center btn-block" value="upload image">
+                                        }
+                                    }
+                                </li>
+                                <li><br></li>
+                                <li>
+                                    <div class="btn-group-vertical btn-block">
+                                        <a href="~/Registration/RegistrationForm" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Edit Account</a>
+                                        <button type="submit" onclick="location.href='@Url.Action("LogOut", "ProfileLO")'" class="btn btn-default"><i class="fa fa-sign-out pull-right"></i>Logout</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- /.panel -->
+
+
+
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-8">
+
+                <div class="profile-cover">
+                    <div class="cover rounded shadow no-overflow">
+                        <div class="inner-cover">
+                            <!-- Start offcanvas btn group menu: This menu will take position at the top of profile cover (mobile only). -->
+                            <div class="btn-group cover-menu-mobile hidden-lg hidden-md">
+                                <button type="button" class="btn btn-theme btn-sm dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                                <ul class="dropdown-menu pull-right no-border" role="menu">
+
+
+                                    @{
+                                        using (Html.BeginForm("UploadImageCover", "ProfileRe", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                        {
+                                            <li><input type="file" name="file" class="active" id="file" value="" /><i class="fa fa-fw fa-photo"></i> <span>Choose Cover Picture</span></li>
+                                            <li> <i class="fa fa-fw fa-photo"> <input type="submit" value="Change Cover"></i></li>
+                                        }
+                                    }
+
+                                </ul>
+                            </div>
+                            @{
+                                if (!Model.getCover.Equals("/Empty/"))
+                                {
+                                    <img src="~/Content/UserCoverProfileNotunThikana/@Model.getCover" class="img-responsive full-width" alt="cover" style="max-height:520px;">
+                                }
+                                else
+                                {
+                                    <img src="//bootdey.com/img/Content/flores-amarillas-wallpaper.jpeg" class="img-responsive full-width" alt="cover" style="max-height:520px;">
+                                }
+                            }
+                        </div>
+                        <ul class="list-unstyled no-padding hidden-sm hidden-xs cover-menu">
+
+                            @{
+                                using (Html.BeginForm("UploadImageCover", "ProfileRe", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                {
+                                    <li><input type="file" name="file" class="active" id="file" value="" /><i class="fa fa-fw fa-photo"></i> <span>Choose Cover Picture</span></li>
+                                    <li> <i class="fa fa-fw fa-photo"> <input type="submit" value="Change Cover"></i></li>
+                                }
+                            }
+
+
+                        </ul>
+                    </div><!-- /.cover -->
+
+                </div><!-- /.profile-cover -->
+
+            </div>
+
+        </div>
+    </div>
+    <!-- END Header -->
+
+    <div class="blog-page area-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="page-head-blog">
+                        <div class="single-blog-page">
+                            <!-- search option start -->
+                            <form action="ProfileRe" method="POST">
+                                <div class="search-option">
+                                    <input type="text" name="SP" placeholder="Search">
+                                    <button class="button" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                            <!-- search option end -->
+                        </div>
+                        <div class="single-blog-page">
+                            <!-- recent start -->
+                            <div class="left-blog">
+                                <h4>Nearby Flats</h4>
+                                <div class="recent-post">
+                                    @{
+
+
+
+
+                                        for (int i = 0; i < @Model.Post.Length; i++)
+                                        {
+
+                                            <div class="recent-single-post">
+                                                <div class="post-img">
+                                                    <a href="#">
+                                                        <img src="img/blog/4.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="pst-content">
+                                                    <p><a href="~/ViewLOprofile/viewLo?Address=@Model.Post[i]&FlatName=@Model.FlatNames"> @Model.Post[i] </a></p>
+                                                </div>
+                                            </div>
+
+                                        }
+
+
+                                    }
+                                    <!-- End single post -->
+                                </div>
+                            </div>
+                            <!-- recent end -->
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!-- End left sidebar -->
+                <!-- Start single blog -->
+
+
+
+                <div class="hide">
+                    <button class="start-hack">Hack it now !</button>
+                    <button class="stop-hack">Disable hack</button>
+
+
+                </div>
+
+
+
+                <div class="col-md-8 col-sm-8 col-xs-12" id="MapDetails">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <!-- single-blog start -->
+                            <article class="blog-post-wrapper">
+                                <div class="post-thumbnail">
+
+                                    <h6>@Model.Error</h6>
+
+                                    <div id="map"></div>
+                                    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: 23.804143, lng: 90.40327 },
+          zoom: 8
+        });
+
+       @Model.Area
+
+                                        }
+
+
+
+
+                                        (() => {
+                                            "use strict";
+
+                                            const hackSetter = (value) => () => {
+                                                window.name = value;
+                                                history.go(0)
+                                            };
+
+                                            const startBtn = document.querySelector('.start-hack');
+                                            const stopBtn = document.querySelector('.stop-hack');
+
+                                            startBtn.addEventListener('click', hackSetter('hacking'), false);
+                                            stopBtn.addEventListener('click', hackSetter(''), false);
+
+                                            /*  if (name !== 'hacking') {
+                                                  stopBtn.disabled = true;
+                                                  return;
+                                              }*/
+
+                                            startBtn.disabled = true;
+
+                                            // Store old reference
+                                            const appendChild = Element.prototype.appendChild;
+
+                                            // All services to catch
+                                            const urlCatchers = [
+                                                "/AuthenticationService.Authenticate?",
+                                                "/QuotaService.RecordEvent?"
+                                            ];
+
+                                            // Google Map is using JSONP.
+                                            // So we only need to detect the services removing access and disabling them by not
+                                            // inserting them inside the DOM
+                                            Element.prototype.appendChild = function (element) {
+                                                const isGMapScript = element.tagName === 'SCRIPT' && /maps\.googleapis\.com/i.test(element.src);
+                                                const isGMapAccessScript = isGMapScript && urlCatchers.some(url => element.src.includes(url));
+
+                                                if (!isGMapAccessScript) {
+                                                    return appendChild.call(this, element);
+                                                }
+
+                                                // Extract the callback to call it with success data
+                                                // (actually this part is not needed at all but maybe in the future ?)
+                                                //const callback = element.src.split(/.*callback=([^\&]+)/, 2).pop();
+                                                //const [a, b] = callback.split('.');
+                                                //window[a][b]([1, null, 0, null, null, [1]]);
+
+                                                // Returns the element to be compliant with the appendChild API
+                                                return element;
+                                            };
+                                        })();
+                                    </script>
+                                </div>
+                                <div class="post-information">
+                                    <h2>Google Map Layout</h2>
+
+
+                                </div>
+                            </article>
+
+
+
+
+                            <!-- single-blog end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Blog Area -->
+    <div class="clearfix"></div>
+
+    <!-- Start Footer bottom Area -->
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <div class="footer-logo">
+                                    <h2><span>Notun</span>Thikana</h2>
+                                </div>
+                                <p>A Simple Way to Connect Bunch of peoples and Comunicate for best Rental and Better Address</p>
+                                <div class="footer-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-google"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4>information</h4>
+                                <p>
+                                    If Theres is a problem to modify Contact us
+                                </p>
+                                <div class="footer-contacts">
+                                    <p><span>Tel:</span> +8801990251270</p>
+                                    <p><span>Email:</span> washiq35-1366@diu.edu.bd</p>
+                                    <p><span>Working Hours:</span> 9am-5pm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4>Thanks For Your Support</h4>
+                                <div class="flicker-img">
+                                    <a href="#"><img src="img/portfolio/1.jpg" alt=""></a>
+                                    <a href="#"><img src="img/portfolio/2.jpg" alt=""></a>
+                                    <a href="#"><img src="img/portfolio/3.jpg" alt=""></a>
+                                    <a href="#"><img src="img/portfolio/4.jpg" alt=""></a>
+                                    <a href="#"><img src="img/portfolio/5.jpg" alt=""></a>
+                                    <a href="#"><img src="img/portfolio/6.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="~/Content/lib/jquery/jquery.min.js"></script>
+    <script src="~/Content/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Content/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/Content/lib/venobox/venobox.min.js"></script>
+    <script src="~/Content/lib/knob/jquery.knob.js"></script>
+    <script src="~/Content/lib/wow/wow.min.js"></script>
+    <script src="~/Content/lib/parallax/parallax.js"></script>
+    <script src="~/Content/lib/easing/easing.min.js"></script>
+    <script src="~/Content/lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+    <script src="~/Content/lib/appear/jquery.appear.js"></script>
+    <script src="~/Content/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf1_xhtCgm83J-HY-URI85YbleH9PHJYY&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf1_xhtCgm83J-HY-URI85YbleH9PHJYY&callback=initMap"
+            type="text/javascript"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="~/Content/contactform/contactform.js"></script>
+
+    <script src="~/Content/js/main.js"></script>
+
+    @if (ViewBag.Message != null)
+    {
+        <script type="text/javascript">
+
+            window.onload = function () {
+                alert("@ViewBag.Message");
+            }
+
+
+
+        </script>
+
+    }
+    @Model.des
+</body>
+
+</html>
+
+

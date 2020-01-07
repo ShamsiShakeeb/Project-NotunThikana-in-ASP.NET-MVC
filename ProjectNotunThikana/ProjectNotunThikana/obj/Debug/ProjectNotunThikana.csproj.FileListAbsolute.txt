@@ -1,0 +1,168 @@
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\ApplicationInsights.config
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\csc.exe
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\System.Collections.Immutable.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\vbc.exe
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\VBCSCompiler.exe
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\VBCSCompiler.exe.config
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\ProjectNotunThikana.dll.config
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\ProjectNotunThikana.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\ProjectNotunThikana.pdb
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Antlr3.Runtime.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\EntityFramework.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\EntityFramework.SqlServer.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.Web.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.WindowsServer.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.ApplicationInsights.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Google.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Newtonsoft.Json.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Owin.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Helpers.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Mvc.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Optimization.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Razor.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.Deployment.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.Razor.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\WebGrease.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.Web.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.WindowsServer.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.ApplicationInsights.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Helpers.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Mvc.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Optimization.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Razor.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.Deployment.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.Razor.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Antlr3.Runtime.pdb
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Newtonsoft.Json.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\EntityFramework.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\EntityFramework.SqlServer.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Google.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\obj\Debug\ProjectNotunThikana.dll
+c:\users\dcl\documents\visual studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\obj\Debug\ProjectNotunThikana.pdb
+C:\Users\DCL\Documents\Visual Studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\obj\Debug\ProjectNotunThikana.csprojAssemblyReference.cache
+C:\Users\DCL\Documents\Visual Studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\obj\Debug\ProjectNotunThikana.csproj.CoreCompileInputs.cache
+C:\Users\DCL\Documents\Visual Studio 2015\Projects\ProjectNotunThikana\ProjectNotunThikana\obj\Debug\ProjectNotunThikana.csproj.CopyComplete
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\ApplicationInsights.config
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\csc.exe
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\System.Collections.Immutable.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\System.Reflection.Metadata.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\vbc.exe
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\VBCSCompiler.exe
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\roslyn\VBCSCompiler.exe.config
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\ProjectNotunThikana.dll.config
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\ProjectNotunThikana.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\ProjectNotunThikana.pdb
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Antlr3.Runtime.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\EntityFramework.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\EntityFramework.SqlServer.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.Agent.Intercept.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.DependencyCollector.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.Web.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.WindowsServer.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.ApplicationInsights.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.Core.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Cookies.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Facebook.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Google.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.OAuth.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Twitter.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Web.Infrastructure.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Newtonsoft.Json.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Owin.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Helpers.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Mvc.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Optimization.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Razor.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.Deployment.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.Razor.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\WebGrease.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.DependencyCollector.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.Web.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AI.WindowsServer.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.ApplicationInsights.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Helpers.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Mvc.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Optimization.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.Razor.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.Deployment.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\System.Web.WebPages.Razor.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Antlr3.Runtime.pdb
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Newtonsoft.Json.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\EntityFramework.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\EntityFramework.SqlServer.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.Core.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Facebook.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Cookies.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.OAuth.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Google.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.Twitter.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\obj\Debug\ProjectNotunThikana.csprojAssemblyReference.cache
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\obj\Debug\ProjectNotunThikana.csproj.CoreCompileInputs.cache
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\obj\Debug\ProjectNotunThikana.csproj.CopyComplete
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\obj\Debug\ProjectNotunThikana.dll
+D:\My Projects\C#\ProjectNotunThikana\ProjectNotunThikana\obj\Debug\ProjectNotunThikana.pdb

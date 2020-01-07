@@ -1,0 +1,380 @@
+﻿@model ProjectNotunThikana.Models.RegistrationClass
+@{
+    Layout = null;
+}
+<html>
+
+
+
+<head>
+    <link href="~/Content/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="~/Content/lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+    <link href="~/Content/lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+    <link href="~/Content/lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+    <link href="~/Content/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/Content/lib/venobox/venobox.css" rel="stylesheet">
+
+
+    <link href="~/Content/css/nivo-slider-theme.css" rel="stylesheet">
+
+
+    <link href="~/Content/css/New folder/New Text Document.css" rel="stylesheet">
+
+
+    <link href="~/Content/css/responsive.css" rel="stylesheet">
+
+
+    
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+    <header>
+        <!-- header-area start -->
+        <div id="sticker" class="header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <!-- Navigation -->
+                        <nav class="navbar navbar-default">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+
+                                <a class="navbar-brand page-scroll sticky-logo" href="~/HomePage/getHomeData">
+                                    <h1><span>Notun</span>Thikana</h1>
+
+                                </a>
+                            </div>
+
+                            <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active">
+                                        <a class="page-scroll" href="~/HomePage/getHomeData">Home</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#services">Services</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="~/ProfileLO/ProfileLandOwner">My Page</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#portfolio">Project Details</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#blog">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-scroll" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- navbar-collapse -->
+                        </nav>
+                        <!-- END: Navigation -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header-area end -->
+    </header>
+
+    <br />  <br />  <br /> <br />  <br />
+
+
+    <div class="container">
+        <form action="RegistrationForm" method="POST" class="form-horizontal" >
+            <h2>Registration Form</h2>
+            <div class="form-group">
+                <label for="firstName" class="col-sm-3 control-label">Full Name</label>
+                <div class="col-sm-9">
+                    <input type="text" name="name" id="firstName" placeholder="Full Name" value="@Model.Name" class="form-control" autofocus>
+                    <span class="help-block">Last Name, First Name, eg.: Smith, Harry</span>
+                </div>
+            </div>
+        @{ 
+            if (Session["Email"] == null)
+            {
+            <div class="form-group">
+                <label for="email" class="col-sm-3 control-label">Email</label>
+                <div class="col-sm-9">
+                    <input type="email" name="mail" id="email" placeholder="Email" value="" class="form-control" >
+                </div>
+            </div>
+            }
+
+            }
+
+
+
+
+
+
+
+
+            <div class="form-group">
+                <label for="phonenumber" class="col-sm-3 control-label">Phone Number</label>
+                <div class="col-sm-9">
+                    <input type="text" name="phnNum" id="number" placeholder="Phoner Number" value="@Model.PhnNum" class="form-control">
+                </div>
+            </div>
+
+
+            @{ 
+                if (Session["Email"] == null)
+                {
+            <div class="form-group">
+                <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+                <div class="col-sm-9">
+                    <input type="date" name="Date" id="birthDate" value="@Model.Dob" class="form-control">
+                </div>
+            </div>
+                }
+                }
+
+            <div class="form-group">
+                <label for="birthDate" class="col-sm-3 control-label">Address</label>
+                <div class="col-sm-9">
+                    <input type="text" name="Address"  value="@Model.Address" class="form-control">
+                </div>
+            </div>
+
+
+           
+            <div class="form-group">
+                <label for="country" class="col-sm-3 control-label">Current City</label>
+                <div class="col-sm-9">
+                    <select name="city" id="country" class="form-control">
+                        @{ 
+                            try
+                            {
+                                if (Model.City.Contains("Dhaka"))
+                                {
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Chitagong">Chitagong</option>
+                        <option value="Barisal">Barisal</option>
+                                }
+                                else if (Model.City.Contains("Chitagong"))
+                                {
+                                <option value="Chitagong">Chitagong</option>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Barisal">Barisal</option>
+                                }
+                                else if (Model.City.Contains("Barisal"))
+                                {
+                                <option value="Barisal">Barisal</option>
+                                <option value="Chitagong">Chitagong</option>
+                                <option value="Dhaka">Dhaka</option>
+
+                                }
+                            }
+                            catch (Exception e)
+                            {
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Chitagong">Chitagong</option>
+                                <option value="Barisal">Barisal</option>
+                            }
+
+                        }
+
+                    </select>
+                </div>
+            </div> <!-- /.form-group -->
+
+            @{ 
+                if (Session["Email"] == null) { 
+            <div class="form-group">
+                <label for="country" class="col-sm-3 control-label">User</label>
+                <div class="col-sm-9">
+                    <select name="User" id="country" class="form-control">
+
+                        @{ 
+                            try
+                            {
+                                if (Model.User.Contains("Land Owner"))
+                                {
+                        <option value="Land Owner">LandOwner</option>
+                        <option value="Rental">Rental</option>
+                                }
+                                else if (Model.User.Contains("Rental"))
+                                {
+                                <option value="Rental">Rental</option>
+                                <option value="Land Owner">LandOwner</option>
+
+                                }
+                            }
+                            catch (Exception e)
+                            {
+                                <option value="Land Owner">LandOwner</option>
+                                <option value="Rental">Rental</option>
+                            }
+                        }
+
+
+                    </select>
+                </div>
+            </div> <!-- /.form-group -->
+                            }
+                            }
+
+           @{ 
+               if (Session["Email"] == null) {
+            <div class="form-group">
+                <label for="phonenumber" class="col-sm-3 control-label">Password</label>
+                <div class="col-sm-9">
+                    <input type="password" name="password"  placeholder="password" value="@Model.Password" class="form-control">
+                </div>
+            </div>
+               }
+               }
+
+           
+
+
+           @{ 
+               String op = "";
+               if (Session["Email"] == null)
+               {
+                   op = "Registration";
+               }
+               else
+               {
+                   op = "Update Info";
+               }
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <button type="submit" class="btn btn-primary btn-block">@op</button>
+                </div>
+            </div>
+               }
+        </form> <!-- /form -->
+    </div> <!-- ./container -->
+
+
+
+
+
+
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <div class="footer-logo">
+                                    <h2><span>Notun</span>Thikana</h2>
+                                </div>
+                                <p>A Simple Way to Connect Bunch of peoples and Comunicate for best Rental and Better Address</p>
+                                <div class="footer-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-google"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4>information</h4>
+                                <p>
+                                    If Theres is a problem to modify Contact us
+                                </p>
+                                <div class="footer-contacts">
+                                    <p><span>Tel:</span> +8801990251270</p>
+                                    <p><span>Email:</span> washiq35-1366@diu.edu.bd</p>
+                                    <p><span>Working Hours:</span> 9am-5pm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4>Thanks For Your Support</h4>
+                                <div class="flicker-img">
+                                    <a href="#"><img src="img/portfolio/1.jpg" alt=""></a>
+                                    <a href="#"><img src="img/portfolio/2.jpg" alt=""></a>
+                                    <a href="#"><img src="img/portfolio/3.jpg" alt=""></a>
+                                    <a href="#"><img src="img/portfolio/4.jpg" alt=""></a>
+                                    <a href="#"><img src="img/portfolio/5.jpg" alt=""></a>
+                                    <a href="#"><img src="img/portfolio/6.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+   
+
+    @*<h1> @Model.Name.Length </h1> <br/>
+    <h1> @Model.Email </h1> <br />
+    <h1> @Model.PhnNum</h1> <br />
+    <h1> @Model.Address.Length</h1> <br />
+    <h1> @Model.City </h1> <br />
+    <h1> @Model.User </h1> <br />
+    <h1> @Model.Dob </h1> <br />
+    <h1> @Model.Password </h1> <br />*@
+
+    @if (ViewBag.Message != null)
+    {
+        <script type="text/javascript">
+
+            window.onload = function () {
+                alert("@ViewBag.Message");
+            }
+
+
+
+        </script>
+
+    }
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
