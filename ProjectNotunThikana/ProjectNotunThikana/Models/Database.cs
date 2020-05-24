@@ -11,8 +11,8 @@ namespace ProjectNotunThikana.Models
     {
 
         private  String Connection = "";
-        public static SqlConnection connection;
-        public static SqlDataReader reading;
+        public  SqlConnection connection;
+        public  SqlDataReader reading;
 
         public SqlConnection DatabaseCon(String Connection)
         {
