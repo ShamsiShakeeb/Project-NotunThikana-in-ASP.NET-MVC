@@ -17,4 +17,8 @@ Tenant can see the nearest accommodation by every search and get the house locat
 
 # Finds Nearest Accomodation Against The Search Address Using Haversine Formula
 
+Because of the fact Implementation of Google Map is not free anymore in the website, Used one Mathematical 
+Formula (Haversine Formula) and few JavaScript Techniques to get The Proper Visualization of Google Map for
+Free of Cost.
+
 ![](The%20Image%20of%20Alternet%20Google%20Map%20Nearest%20Location.PNG)
