@@ -21,4 +21,4 @@ Because of the fact Implementation of Google Map is not free anymore in the webs
 Formula (Haversine Formula) and few JavaScript Techniques to get The Proper Visualization of Google Map for
 Free of Cost.
 
-![](The%20Image%20of%20Alternet%20Google%20Map%20Nearest%20Location.PNG)
+![](GoogleMapVisualization.png)
